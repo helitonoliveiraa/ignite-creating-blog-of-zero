@@ -1,1 +1,62 @@
-// TODO
+.postContainer {
+  padding-bottom: 6rem;
+
+  img {
+    width: 100%;
+    height: 40rem;
+    object-fit: cover;
+  }
+}
+
+.postContent {
+  max-width: 784px;
+  padding: 0 2rem;
+  margin: 8rem auto 0;
+
+  h1 {
+    font-size: 4.8rem;
+    font-weight: bold;
+    color: var(--gray-100);
+    margin-left: 2rem;
+  }
+
+  .info {
+    margin: 2.4rem 0 0 2rem;
+  }
+}
+
+.post {
+
+  header {
+    font-size: 3.6rem;
+    font-weight: bold;
+    line-height: 140%;
+    margin: 6rem 0;
+  }
+
+  P {
+    color: var(--gray-150);
+    line-height: 3rem;
+
+    & + p {
+      margin-top: 3rem;
+    }
+  }
+
+  a {
+    color: var(--pink-600);
+
+    &:hover {
+      filter: brightness(0.9);
+    }
+  }
+
+  ul, ol {
+    margin-left: 4rem;
+    margin-top: 1rem;
+  }
+
+  li {
+    line-height: 2.5rem;
+  }
+}
