@@ -1,1 +1,22 @@
-// TODO
+.info {
+  display: flex;
+  align-items: center;
+
+  font-size: 1.4rem;
+  color: var(--gray-500);
+
+  svg {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.8rem;
+  }
+
+  time, span {
+    display: flex;
+    align-items: center;
+  }
+
+  span {
+    margin: 0 2.4rem;
+  }
+}
